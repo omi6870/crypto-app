@@ -1,0 +1,140 @@
+.coin-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coin-row{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 80px;
+    border-bottom: 1px solid #FECA10;
+    width: 900px;
+    
+}
+.coin{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    min-width: 300px;
+}
+.coin h1{
+   font-size: 18px;
+    margin-right: 10px;
+}
+.coin-logo{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+.coin-data{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    width: 100%;
+    
+}
+
+
+.coin-green{
+    color: green;
+    width: 90px;
+}
+.coin-red{
+    color: red;
+    width: 90px;
+}
+.coin-symbol{
+    text-transform: uppercase;
+}
+.coin-price{
+    width: 110px;
+}
+.coin-volume{
+    width: 155px;
+}
+.coin-marketcap{
+    width: 230px;
+}
+
+@media screen and (max-width: 950px) {
+    .coin-row{
+        width: 700px;
+    }
+    .coin h1{
+        font-size: 15px;
+        
+    }
+   .coin-price{
+    font-size: 12px;
+    width: 70px;
+    margin-bottom: 10px;
+   }
+   .coin-volume{
+    font-size: 12px;
+    width: 110px;
+    margin-bottom: 10px;
+   }
+   .coin-symbol{
+    font-size: 12px;
+   }
+   .coin-green{
+    font-size: 12px;
+    width: 50px;
+    margin-bottom: 10px;
+   }
+   .coin-red{
+    font-size: 12px;
+    width: 50px;
+    margin-bottom: 10px;
+   }
+   .coin-marketcap{
+    font-size: 12px;
+    width: 170px;
+    
+  
+   }
+   .coin-logo{
+    height: 20px;
+    width: 20px;
+   }
+}
+
+
+@media screen and (max-width: 780px) {
+   .coin-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   .coin-row{
+    width: 500px;
+    display: flex;
+    align-items: center;
+justify-content: center; 
+height: 150px;  }
+
+}
+
+@media screen and (max-width: 550px) {
+    .coin-data{
+        
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    }
+    .coin-row{
+        height: 100px;
+     width: auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ justify-content: center; 
+ height: 150px;  
+
+}
+ 
+ }
